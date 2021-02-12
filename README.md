@@ -4,7 +4,7 @@ This poller is designed to collect network data and return it to your [Sonar](ht
 
 ## Requirements
 
-The poller requires a 64bit x86 CPU. At least 2 cores and 4GB of RAM is recommended - assigning more cores will help with rapid polling to a degree. The poller is mostly built in PHP and has been tested on Ubuntu Linux 16.04.
+The poller requires a 64bit x86 CPU. At least 2 cores and 4GB of RAM is recommended - assigning more cores will help with rapid polling to a degree. The poller is mostly built in PHP and has been tested on Ubuntu Linux 16.04. We recommend a minimum of 40 GB of disk space so the poller can rotate it's log files, for those of our customers running the v1-poller on SBC's we recommend a 64GB SD-card.
 
 ## Installation & Setup
 
